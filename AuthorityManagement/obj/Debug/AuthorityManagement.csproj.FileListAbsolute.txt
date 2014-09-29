@@ -19,3 +19,6 @@ E:\Dev\Self\AuthorityManagement\AuthorityManagement\obj\Debug\AuthorityManagemen
 E:\Dev\Self\AuthorityManagement\AuthorityManagement\obj\Debug\AuthorityManagement.FormUserManage.resources
 E:\Dev\Self\AuthorityManagement\AuthorityManagement\obj\Debug\AuthorityManagement.FormSystemManage.resources
 E:\Dev\Self\AuthorityManagement\AuthorityManagement\obj\Debug\AuthorityManagement.FormActionManage.resources
+E:\Dev\AuthorityManagement\AuthorityManagement\bin\Debug\AuthorityManagement.exe.config
+E:\Dev\AuthorityManagement\AuthorityManagement\obj\Debug\AuthorityManagement.exe
+E:\Dev\AuthorityManagement\AuthorityManagement\obj\Debug\AuthorityManagement.pdb
