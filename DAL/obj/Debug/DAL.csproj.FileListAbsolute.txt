@@ -1,0 +1,9 @@
+E:\Dev\Self\AuthorityManagement\DAL\bin\Debug\DAL.dll
+E:\Dev\Self\AuthorityManagement\DAL\bin\Debug\DAL.pdb
+E:\Dev\Self\AuthorityManagement\DAL\bin\Debug\DBManager.dll
+E:\Dev\Self\AuthorityManagement\DAL\bin\Debug\Model.dll
+E:\Dev\Self\AuthorityManagement\DAL\bin\Debug\SRDFAA.Fram.dll
+E:\Dev\Self\AuthorityManagement\DAL\bin\Debug\Model.pdb
+E:\Dev\Self\AuthorityManagement\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Dev\Self\AuthorityManagement\DAL\obj\Debug\DAL.dll
+E:\Dev\Self\AuthorityManagement\DAL\obj\Debug\DAL.pdb

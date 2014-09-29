@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F8D06BD-37B5-429E-99A5-A0F68873C1B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AuthorityManagement</RootNamespace>
+    <AssemblyName>AuthorityManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v13.1.Core, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\DevExpress\DXperience 13.1\Bin\Framework\DevExpress.XtraGrid.v13.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="SRDFAA.Fram, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\SRDFAA.Fram.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormActionManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormActionManage.Designer.cs">
+      <DependentUpon>FormActionManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuManage.Designer.cs">
+      <DependentUpon>FormMenuManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRoleManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRoleManage.Designer.cs">
+      <DependentUpon>FormRoleManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSystemManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSystemManage.Designer.cs">
+      <DependentUpon>FormSystemManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserManage.Designer.cs">
+      <DependentUpon>FormUserManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormActionManage.resx">
+      <DependentUpon>FormActionManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuManage.resx">
+      <DependentUpon>FormMenuManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRoleManage.resx">
+      <DependentUpon>FormRoleManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSystemManage.resx">
+      <DependentUpon>FormSystemManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserManage.resx">
+      <DependentUpon>FormUserManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Model.Condition.MenuCondition.datasource" />
+    <None Include="Properties\DataSources\Model.View.ActionVO.datasource" />
+    <None Include="Properties\DataSources\Model.View.MenuActionVO.datasource" />
+    <None Include="Properties\DataSources\Model.View.MenuActiveVO.datasource" />
+    <None Include="Properties\DataSources\Model.View.MenuVO.datasource" />
+    <None Include="Properties\DataSources\Model.View.RoleMenuAction.datasource" />
+    <None Include="Properties\DataSources\Model.View.RoleVO.datasource" />
+    <None Include="Properties\DataSources\Model.View.SystemVO.datasource" />
+    <None Include="Properties\DataSources\Model.View.UserRole.datasource" />
+    <None Include="Properties\DataSources\Model.View.UserVO.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLL\DBManager.dll" />
+    <Content Include="DLL\SRDFAA.Fram.dll" />
+    <None Include="Resources\shell32.dll%28220%29.ico" />
+    <None Include="Resources\shell32.dll%28220%29.png" />
+    <None Include="Resources\shell32.dll%2840%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{eb83b01d-3f94-470b-b61a-3c9b1f8f4dd1}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{9b90207d-9950-4c1c-95e5-b8af6a21e12a}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

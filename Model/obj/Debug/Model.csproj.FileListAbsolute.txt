@@ -1,0 +1,5 @@
+E:\Dev\Self\AuthorityManagement\Model\bin\Debug\Model.dll
+E:\Dev\Self\AuthorityManagement\Model\bin\Debug\Model.pdb
+E:\Dev\Self\AuthorityManagement\Model\obj\Debug\Model.dll
+E:\Dev\Self\AuthorityManagement\Model\obj\Debug\Model.pdb
+E:\Dev\Self\AuthorityManagement\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
