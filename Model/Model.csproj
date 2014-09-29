@@ -41,6 +41,8 @@
   <ItemGroup>
     <Compile Include="Condition\MenuQueryCondition.cs" />
     <Compile Include="Enum\EditType.cs" />
+    <Compile Include="Enum\Identity.cs" />
+    <Compile Include="Enum\Operator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\ActionVO.cs" />
     <Compile Include="View\MenuActiveVO.cs" />
